@@ -13,7 +13,7 @@ setTimeout(function() {
     console.log('Hola JavaScript');
     }, 5000)
 
-function gretting(name){
+function greeting(name){
     console.log(`Hola ${name}`);
 }
-setTimeout(gretting, 2000, 'Oscar');
+setTimeout(greeting, 2000, 'Oscar');
