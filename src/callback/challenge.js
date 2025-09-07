@@ -1,5 +1,5 @@
 const XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
-const API = 'https://api.escuelajs.com/api/v1';
+const API = 'https://api.escuelajs.co/api/v1';
 
 function fetchData(urlAPI, callback){
     let xhttp = new XMLHttpRequest();
@@ -17,7 +17,6 @@ function fetchData(urlAPI, callback){
     }
     xhttp.send();
 }
-
 
 fetchData(`${API}/products`, function(error1, data1){
     if (error1) return console.error(error1);
