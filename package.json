@@ -15,5 +15,8 @@
     "url": "https://github.com/lucianobaleani/asincronismo-js/issues"
   },
   "homepage": "https://github.com/lucianobaleani/asincronismo-js#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
