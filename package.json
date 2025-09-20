@@ -17,6 +17,8 @@
   "homepage": "https://github.com/lucianobaleani/asincronismo-js#readme",
   "description": "",
   "dependencies": {
+    "node-fetch": "^3.3.2",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "type": "module"
 }
